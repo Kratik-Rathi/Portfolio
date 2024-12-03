@@ -184,7 +184,7 @@ const educationInfo = {
       duration: "August 2024 - May 2026",
       //desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Current Coursework - Introduction to Statistics, Applies Machine Learning, Advance Database Concepts",
+        "Current Coursework - Introduction to Statistics, Applied Machine Learning, Advance Database Concepts",
       ]
     },
     {
@@ -193,7 +193,7 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science and Engineering",
       duration: "August 2019 - July 2023",
       //desc: "GPA: 3.43",
-      descBullets: ["GPA: 3.43", "Completed Coursework in: Data Mining, Data Science, Data Visualizations, Big Data Engineering, Database Management, Python Programming, Data Structures and Algorithms, Design and Analysis of Algorithms and many more."]
+      descBullets: ["GPA: 3.43", "Completed Coursework in: Data Mining, Data Science, Data Visualization, Big Data Engineering, Database Management, Python Programming, Data Structures and Algorithms, Design and Analysis of Algorithms and many more."]
     }
   ]
 };
