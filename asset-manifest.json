@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8528fee5.css",
-    "main.js": "/Portfolio/static/js/main.06869c0b.js",
+    "main.css": "/Portfolio/static/css/main.43e4f61b.css",
+    "main.js": "/Portfolio/static/js/main.ef04ce75.js",
     "static/css/487.bb36206c.chunk.css": "/Portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/Portfolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/Portfolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "/Portfolio/static/js/990.567a0b93.chunk.js",
+    "static/media/DocuVerse.png": "/Portfolio/static/media/DocuVerse.bc975b13728343ef1402.png",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/20230208142941.png": "/Portfolio/static/media/20230208142941.bd20f738e24550db23d6.png",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.e525385542af62ba72a0.pdf",
@@ -26,15 +27,15 @@
     "static/media/pwaLogo.webp": "/Portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.8528fee5.css.map": "/Portfolio/static/css/main.8528fee5.css.map",
-    "main.06869c0b.js.map": "/Portfolio/static/js/main.06869c0b.js.map",
+    "main.43e4f61b.css.map": "/Portfolio/static/css/main.43e4f61b.css.map",
+    "main.ef04ce75.js.map": "/Portfolio/static/js/main.ef04ce75.js.map",
     "487.bb36206c.chunk.css.map": "/Portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/Portfolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/Portfolio/static/css/990.c6a7ee28.chunk.css.map",
     "990.567a0b93.chunk.js.map": "/Portfolio/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8528fee5.css",
-    "static/js/main.06869c0b.js"
+    "static/css/main.43e4f61b.css",
+    "static/js/main.ef04ce75.js"
   ]
 }
