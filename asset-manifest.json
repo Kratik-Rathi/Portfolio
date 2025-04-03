@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.43e4f61b.css",
-    "main.js": "/Portfolio/static/js/main.82227dde.js",
+    "main.js": "/Portfolio/static/js/main.c63efd38.js",
     "static/css/487.bb36206c.chunk.css": "/Portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/Portfolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/Portfolio/static/css/990.c6a7ee28.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/DocuVerse.png": "/Portfolio/static/media/DocuVerse.bc975b13728343ef1402.png",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/20230208142941.png": "/Portfolio/static/media/20230208142941.bd20f738e24550db23d6.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.cc40790879e4988ba3e7.pdf",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.8c10eebd1f05eb4ab01c.pdf",
     "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Indiana-University-Symbol.png": "/Portfolio/static/media/Indiana-University-Symbol.1d878e20e3bcf0b59d84.png",
     "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -28,7 +28,7 @@
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.43e4f61b.css.map": "/Portfolio/static/css/main.43e4f61b.css.map",
-    "main.82227dde.js.map": "/Portfolio/static/js/main.82227dde.js.map",
+    "main.c63efd38.js.map": "/Portfolio/static/js/main.c63efd38.js.map",
     "487.bb36206c.chunk.css.map": "/Portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/Portfolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/Portfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.43e4f61b.css",
-    "static/js/main.82227dde.js"
+    "static/js/main.c63efd38.js"
   ]
 }
