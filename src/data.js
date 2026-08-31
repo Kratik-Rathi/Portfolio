@@ -12,7 +12,7 @@ export const meta = {
       { text: '.' },
     ]
   },
-  bio:      'Data Engineer and Analyst who builds production AI systems — ETL pipelines handling 15M+ records, RAG applications using Claude API and LangChain, and analytics dashboards used by real grant makers and transit planners. M.S. Data Science · Indiana University · AWS Certified.',
+  bio:      'Data Engineer and Analyst who builds — ETL pipelines handling 15M+ records, RAG applications using Claude API and LangChain, and analytics dashboards used by real grant makers and transit planners. M.S. Data Science · Indiana University · AWS Certified.',
   location: 'Chicago, IL',
   degree:   'M.S. Data Science · Indiana University Bloomington',
   stack:    'Python · SQL · LangChain · RAG',
@@ -21,7 +21,7 @@ export const meta = {
     linkedin: 'https://www.linkedin.com/in/kratikrathi/',
     github:   'https://github.com/Kratik-Rathi',
     tableau:  'https://public.tableau.com/app/profile/kratik.rathi/vizzes',
-    resume:   '/assets/resume/Kratik_Rathi_Resume.pdf',
+    resume:   'assets/resume/Kratik_Rathi_Resume.pdf',
   },
   platforms: ['Python', 'LangChain', 'AWS', 'GCP', 'Claude API', 'Tableau'],
 }
@@ -50,7 +50,7 @@ export const pipeline = {
 export const experience = [
   {
     company: 'Project 990 Inc.',
-    logo: '/assets/logos/project990_logo.jpg', logoFallback: 'P9', logoColor: '#0891b2',
+    logo: 'assets/logos/project990_logo.jpg', logoFallback: 'P9', logoColor: '#0891b2',
     role: 'Data Scientist', type: 'Full-time',
     date: 'October 2025 – Present',
     bullets: [
@@ -62,7 +62,7 @@ export const experience = [
   },
   {
     company: 'Indiana University Bloomington',
-    logo: '/assets/logos/Indiana-University-Symbol.png', logoFallback: 'IU', logoColor: '#7b0000',
+    logo: 'assets/logos/Indiana-University-Symbol.png', logoFallback: 'IU', logoColor: '#7b0000',
     role: 'Associate Instructor', type: 'Part-time',
     date: 'May 2025 – May 2026',
     bullets: [
@@ -72,7 +72,7 @@ export const experience = [
   },
   {
     company: 'Genmark AI Inc.',
-    logo: '/assets/logos/genmarkai_logo.jpg', logoFallback: 'GA', logoColor: '#059669',
+    logo: 'assets/logos/genmarkai_logo.jpg', logoFallback: 'GA', logoColor: '#059669',
     role: 'Software Engineer Intern', type: 'Internship',
     date: 'July 2025 – August 2025',
     bullets: [
@@ -83,7 +83,7 @@ export const experience = [
   },
   {
     company: 'Indiana University – Indiana Innocence Project',
-    logo: '/assets/logos/Indiana-University-Symbol.png', logoFallback: 'IU', logoColor: '#7b0000',
+    logo: 'assets/logos/Indiana-University-Symbol.png', logoFallback: 'IU', logoColor: '#7b0000',
     role: 'Research Assistant', type: 'Part-time',
     date: 'January 2025 – May 2025',
     bullets: [
@@ -93,7 +93,7 @@ export const experience = [
   },
   {
     company: 'Swastika Investmart Ltd.',
-    logo: '/assets/logos/swastikainvestmart.png', logoFallback: 'SI', logoColor: '#7c3aed',
+    logo: 'assets/logos/swastikainvestmart.png', logoFallback: 'SI', logoColor: '#7c3aed',
     role: 'Data Analyst Intern', type: 'Internship',
     date: 'January 2024 – July 2024',
     bullets: [
@@ -103,7 +103,7 @@ export const experience = [
   },
   {
     company: 'Mahindra & Mahindra Ltd.',
-    logo: '/assets/logos/Mahindra.jpg', logoFallback: 'M&M', logoColor: '#dc2626',
+    logo: 'assets/logos/Mahindra.jpg', logoFallback: 'M&M', logoColor: '#dc2626',
     role: 'Data Analyst Intern', type: 'Internship',
     date: 'January 2023 – April 2023',
     bullets: [
@@ -113,7 +113,7 @@ export const experience = [
   },
   {
     company: 'Tech Mahindra Ltd.',
-    logo: '/assets/logos/Tech_Mahindra-Logo.png', logoFallback: 'TM', logoColor: '#ea580c',
+    logo: 'assets/logos/Tech_Mahindra-Logo.png', logoFallback: 'TM', logoColor: '#ea580c',
     role: 'Data Analyst Intern', type: 'Internship',
     date: 'June 2022 – August 2022',
     bullets: [
@@ -180,7 +180,7 @@ export const projects = [
 export const certifications = [
   {
     issuer: 'Amazon Web Services',
-    count: 1,
+    count: null,
     items: [
       { code: 'CLF-C02', name: 'AWS Certified Cloud Practitioner', date: 'January 2026' },
     ],

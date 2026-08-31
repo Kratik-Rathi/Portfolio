@@ -12,11 +12,16 @@ function SectionHeading({ children }) {
 
 function CompanyLogo({ logo, fallback, color }) {
   const [err, setErr] = useState(false)
-  if (!logo || err) return (
-    <div style={{ width:44, height:44, borderRadius:10, flexShrink:0, background:`${color}20`, border:`1px solid ${color}50`, display:'flex', alignItems:'center', justifyContent:'center', fontSize:11, fontWeight:700, color, letterSpacing:'-0.5px' }}>{fallback}</div>
-  )
+  const base = import.meta.env.BASE_URL
+  const logoSrc = logo ? `${base}${logo}` : null
+
+  if (!logoSrc || err) {
+    return (
+      <div style={{ width:44, height:44, borderRadius:10, flexShrink:0, background:`${color}20`, border:`1px solid ${color}50`, display:'flex', alignItems:'center', justifyContent:'center', fontSize:11, fontWeight:700, color, letterSpacing:'-0.5px' }}>{fallback}</div>
+    )
+  }
   return (
-    <img src={logo} alt="" onError={() => setErr(true)} style={{ width:44, height:44, borderRadius:10, flexShrink:0, objectFit:'contain', background:'var(--logo-bg)', padding:6, border:'0.5px solid var(--border2)' }}/>
+    <img src={logoSrc} alt="" onError={() => setErr(true)} style={{ width:44, height:44, borderRadius:10, flexShrink:0, objectFit:'contain', background:'var(--logo-bg)', padding:6, border:'0.5px solid var(--border2)' }}/>
   )
 }
 

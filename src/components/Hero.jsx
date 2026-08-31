@@ -6,15 +6,16 @@ const ROLES = [
   { label: 'AI Systems Builder', color: '#f472b6', bg: 'rgba(244,114,182,0.1)', border: 'rgba(244,114,182,0.3)' },
 ]
 
-const LINKS = [
-  { label: 'LinkedIn', href: meta.links.linkedin },
-  { label: 'GitHub',   href: meta.links.github },
-  { label: 'Tableau',  href: meta.links.tableau },
-  { label: 'Resume ↗', href: meta.links.resume, download: true },
-]
 
 export default function Hero() {
   const [n1, n2] = meta.name.split(' ')
+  const base = import.meta.env.BASE_URL
+  const LINKS = [
+    { label: 'LinkedIn', href: meta.links.linkedin },
+    { label: 'GitHub',   href: meta.links.github },
+    { label: 'Tableau',  href: meta.links.tableau },
+    { label: 'Resume ↗', href: `${base}${meta.links.resume}`, download: true },
+  ]
 
   function lHov(e, on) {
     e.currentTarget.style.color       = on ? 'var(--accent)' : 'var(--text2)'
