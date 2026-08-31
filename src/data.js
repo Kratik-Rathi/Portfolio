@@ -180,7 +180,6 @@ export const projects = [
 export const certifications = [
   {
     issuer: 'Amazon Web Services',
-    count: null,
     items: [
       { code: 'CLF-C02', name: 'AWS Certified Cloud Practitioner', date: 'January 2026' },
     ],
