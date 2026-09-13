@@ -255,7 +255,6 @@ export function Certifications() {
         <div key={issuer.issuer} style={{ marginBottom:40 }}>
           <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:20 }}>
             <span style={{ fontSize:16, fontWeight:600, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.06em' }}>{issuer.issuer}</span>
-            <span style={{ fontSize:11, color:'var(--accent)', background:'var(--accent-dim)', border:'0.5px solid var(--accent-border)', borderRadius:12, padding:'2px 10px', fontWeight:600 }}>{issuer.count}</span>
           </div>
           <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:14 }}>
             {issuer.items.map(cert=>(

@@ -214,7 +214,7 @@ export default function Splash({ onEnter }) {
         letterSpacing: '0.22em', fontFamily: 'monospace',
         marginTop: 10, marginBottom: 20, textTransform: 'uppercase',
       }}>
-        Data Engineer · Data Analyst · AI Systems
+        Data Engineer · Data Analyst
       </div>
 
       {/* CTA */}
