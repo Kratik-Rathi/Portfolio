@@ -12,7 +12,7 @@ export const meta = {
       { text: '.' },
     ]
   },
-  bio:      'Data Engineer and Analyst who builds — ETL pipelines handling 15M+ records, RAG applications using Claude API and LangChain, and analytics dashboards used by real grant makers and transit planners. M.S. Data Science · Indiana University · AWS Certified.',
+  bio:      'Data Engineer and Analyst who builds ETL pipelines handling 15M+ records, RAG applications using Claude API and LangChain, and analytics dashboards used by real grant makers and transit planners. M.S. Data Science · Indiana University · AWS Certified.',
   location: 'Chicago, IL',
   degree:   'M.S. Data Science · Indiana University Bloomington',
   stack:    'Python · SQL · LangChain · RAG',
@@ -54,8 +54,8 @@ export const experience = [
     role: 'Data Scientist', type: 'Full-time',
     date: 'October 2025 – Present',
     bullets: [
-      'Consolidated 15M+ IRS grant records into production via a Python ETL pipeline — zero duplicate ingestion, full audit traceability.',
-      'Rebuilt a Tableau dashboard with Plotly, React and FastAPI on AWS EC2 — reducing load time from 5 seconds to 90 ms on 2M+ records.',
+      'Consolidated 15M+ IRS grant records into production via a Python ETL pipeline and ensured zero duplicate ingestion, full audit traceability.',
+      'Built a dashboard using Plotly, React, and FastAPI, deploying on AWS EC2 to handle 2M+ records and reducing load time from 5 seconds to 90 ms.',
       'Architected a DuckDB analytical layer with B-tree indexing and caching, reducing backend query response to 30 ms.',
       'Delivered Tableau dashboards visualizing 750K+ U.S. nonprofits for grant makers, enabling national-to-city drill-down.',
     ],
